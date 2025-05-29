@@ -2,18 +2,66 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <meta
+      name="description"
+      content="Dynasty: Fallen & Rise – Rebuild your fallen kingdom in this epic strategy RPG. Recruit heroes, lead armies, and reclaim your legacy!"
+    />
+    <meta
+      name="keywords"
+      content="Dynasty RPG, strategy game, medieval fantasy, kingdom war, mobile empire game, historical combat, PvP battle, build empire"
+    />
+    <meta name="author" content="Glow Dynasty Saga Studios" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://glowdynastysaga.com" />
+    <meta
+      property="og:title"
+      content="Dynasty: Fallen & Rise – Reclaim the Throne in a War-Torn World!"
+    />
+    <meta
+      property="og:description"
+      content="Command armies, outwit rivals, and build your legend in this immersive tactical RPG."
+    />
+    <meta
+      property="og:image"
+      content="https://glowdynastysaga.com/og-image.jpg"
+    />
+    <meta property="og:url" content="https://glowdynastysaga.com" />
+    <meta property="og:type" content="website" />
+
+    <title>Glowdynastysaga</title>
   </head>
   <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
+    <header>
+      <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
+      <load src="./partials/mobile-menu.html" />
+      <load src="./partials/home.html" />
+    </header>
 
     <main>
       <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
+      <load src="./partials/home.html" />
+      <load src="./partials/about.html" />
+      <load src="./partials/how-to-play.html" />
+      <load src="./partials/features.html" />
+      <load src="./partials/characters.html" />
+      <load src="./partials/atmosphere.html" />
+      <load src="./partials/reviews.html" />
+      <load src="./partials/faq.html" />
+      <load src="./partials/call-to-action.html" />
+      <load src="./partials/cookies-modal.html" />
     </main>
 
     <load src="./partials/footer.html" />
