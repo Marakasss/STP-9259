@@ -1,5 +1,51 @@
 <section class="section">
-  <div class="container">
-    <!--TODO -->
+  <div class="container home-wrp">
+    
+      <picture>
+        <!--desktop-->
+        <source
+          srcset="
+            /img/home/main-picture-desktop.png   1x,
+            /img/home/main-picture-desktop@2.png 2x
+          "
+          media="(min-width: 1200px)"
+        />
+
+        <!--mobile -->
+        <source
+          srcset="
+            /img/home/main-picture-mobile.png   1x,
+            /img/home/main-picture-mobile@2.png 2x
+          "
+          media="(max-width: 1199px)"
+        />
+
+        <!--Fallback-->
+        <img
+          class="img-warrior"
+          src="/img/home/main-picture-mobile.png"
+          alt="Epic warrior"
+          loading="lazy"
+          width="auto"
+          height="auto"
+        />
+      </picture>
+
+      <div class="home-content-wrp">
+        <h1 class="home-tittle">
+          Dynasty: Fallen & Rise – Reclaim the Throne, Rewrite History!
+        </h1>
+        <p class="home-descr">
+          Lead your kingdom through betrayal, war, and glory in this epic strategy
+          RPG!
+        </p>
+        <a class="home-download" href="#">
+          <svg class="burger-icon" width="14" height="16">
+            <use href="/img/sprite.svg#icon-google-play-icon"></use>
+          </svg>
+            <span>Download on Google Play</span>
+        </a>
+      </div>
+    </div>
   </div>
 </section>
