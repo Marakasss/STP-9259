@@ -81,12 +81,13 @@
   .home-wrp {
     display: flex;
     flex-direction: row-reverse;
+    overflow-x: hidden;
   }
 
   .img-warrior {
     position: relative;
     z-index: 2;
-    max-width: 150%;
+    max-width: 120%;
     margin-left: -50px;
   }
 }
