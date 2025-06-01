@@ -1,8 +1,7 @@
-/* Після імпорту modern-normalize */
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 html {
