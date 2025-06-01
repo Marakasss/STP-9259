@@ -1,1 +1,58 @@
+.section-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 998;
+  background-color: #0c0f10;
+}
 
+.nav-list {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 10px 0 6px 5px;
+}
+
+.burger-btn {
+  border: none;
+  background-color: transparent;
+  padding: 10px 5px 6px 0;
+}
+
+@media only screen and (min-width: 1200px) {
+  .burger-btn {
+    display: none;
+  }
+
+  .logo {
+    padding: 24px 0;
+    width: 32px;
+    height: 32px;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 48px;
+  }
+
+  .nav-item {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 10px;
+    color: #fffffd;
+    padding: 33px 0;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: #e7e7a6;
+    }
+  }
+}

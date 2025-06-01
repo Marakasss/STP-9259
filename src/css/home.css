@@ -1,0 +1,93 @@
+.home-content-wrp {
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-tittle {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 24px;
+  color: #fffffd;
+  margin-bottom: 16px;
+  margin-left: 6px;
+}
+
+.home-descr {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #fffffd;
+  margin-bottom: 24px;
+  margin-left: 6px;
+}
+.home-download {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  border: 1px solid #fffffd;
+  border-radius: 10px;
+  width: 100%;
+  background: #0c0f10;
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: #fffffd;
+  padding: 10px 18px;
+  transition: all 250ms ease;
+
+  &:hover {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: rgba(12, 15, 16, 0.5);
+    border: 1px solid rgba(255, 255, 253, 0.6);
+  }
+
+  &:active {
+    border: none;
+    background: #0c0f10;
+    box-shadow: none;
+  }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1200px) {
+  .home-content-wrp {
+    max-width: 530px;
+    margin-top: 80px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .home-tittle {
+    font-size: 48px;
+    margin-bottom: 28px;
+    margin-left: 0;
+  }
+
+  .home-descr {
+    font-size: 24px;
+    margin-bottom: 48px;
+    margin-left: 0px;
+  }
+
+  .home-download {
+    gap: 12px;
+    border-radius: 10px;
+    width: 280px;
+    padding: 18px 19px;
+  }
+
+  .home-wrp {
+    display: flex;
+    flex-direction: row-reverse;
+    overflow-x: hidden;
+  }
+
+  .img-warrior {
+    position: relative;
+    z-index: 2;
+    max-width: 120%;
+    margin-left: -50px;
+  }
+}
