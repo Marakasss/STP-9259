@@ -48,6 +48,98 @@
   font-size: 10px;
   color: #fffffd;
 }
+/* -----------------------page-------------- */
+.privacy-section {
+  background: #182223;
+}
+.privecy-wrapper {
+  padding: 16px 0 0 0;
+}
+.back-wrapper {
+  margin-left: 30.5px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+  margin-bottom: 8px;
+}
+.goback-btn {
+  font-family: var(--second-family);
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 10px;
+  height: 100%;
+}
+.goback-btn:hover,
+.goback-btn:focus {
+  color: #979797;
+  transition: 200ms ease;
+}
+.goback-btn:hover .goback-icon,
+.goback-btn:focus .goback-icon {
+  fill: #979797;
+  transition: 200ms ease;
+}
+.goback-icon {
+  margin-right: 7px;
+  fill: #fffffd;
+}
+.content-wrapper {
+  margin: 0 auto;
+  width: 278px;
+}
+.privacy-title {
+  letter-spacing: 0.03em;
+  font-family: var(--second-family);
+  font-size: 19px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+.updated {
+  font-size: 10px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.privacy-title-item {
+  font-size: 10px;
+  font-weight: 200;
+}
+.soft-space {
+  margin-bottom: 5px;
+}
+.hard-space {
+  margin-bottom: 20px;
+}
+.privacy-items-title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.privacy-items {
+  font-family: var(--font-family);
+  font-size: 10px;
+  font-weight: 200;
+}
+ol.styled-items {
+  font-family: var(--second-family);
+  list-style-type: decimal;
+  text-align: left;
+  list-style-position: outside;
+  padding-left: 1.5rem;
+}
+.styled-items {
+  list-style: disc;
+}
+.styled-items .privacy-items {
+  margin-left: 15px;
+}
+.styled-link {
+  text-decoration: underline;
+}
+.privacy-items.sliced {
+  margin-left: 0;
+}
 
 @media only screen and (min-width: 1200px) {
   .footer {
@@ -83,5 +175,52 @@
   .domen {
     font-weight: 700;
     font-size: 12px;
+  }
+  .privecy-wrapper {
+    padding: 72px 0 0 0;
+  }
+  .back-wrapper {
+    margin-left: 80px;
+    height: 24px;
+    margin-bottom: 33px;
+  }
+  .goback-btn {
+    font-size: 12px;
+  }
+  .goback-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .content-wrapper {
+    width: 1040px;
+  }
+  .privacy-title {
+    letter-spacing: 0.03em;
+    margin-bottom: 43px;
+    font-size: 32px;
+  }
+  .updated {
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 16px;
+  }
+  .updated {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .privacy-title-item {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .privacy-items-title {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .privacy-items {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .hard-space {
+    margin-bottom: 30px;
   }
 }
