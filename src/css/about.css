@@ -1,0 +1,46 @@
+.about-wrp,
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.about-wrp {
+  max-width: 915px;
+}
+
+.about-title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 20px;
+  color: #fffffd;
+}
+
+.about-descr {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 167%;
+  letter-spacing: 0.01em;
+  color: #fffffd;
+  max-width: 630px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .about-title {
+    font-size: 32px;
+  }
+
+  .about-descr {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+  }
+
+  .about-content {
+    flex-direction: row;
+    gap: 100px;
+  }
+}

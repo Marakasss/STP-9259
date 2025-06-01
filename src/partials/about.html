@@ -1,5 +1,57 @@
-<section class="section">
-  <div class="container">
-    
+<section class="section" id="about">
+  <div class="container about-wrp">
+    <h2 class="about-title">About the game</h2>
+
+    <div class="about-content">
+      <picture>
+        <!--desktop-->
+        <source
+          srcset="
+            /img/about/about-pic-desktop.png   1x,
+            /img/about/about-pic-desktop@2.png 2x
+          "
+          media="(min-width: 1200px)"
+        />
+        <!--mobile -->
+        <source
+          srcset="
+            /img/about/about-pic-mobile.png   1x,
+            /img/about/about-pic-mobile@2.png 2x
+          "
+          media="(max-width: 1199px)"
+        />
+        <!--Fallback-->
+        <img
+          src="/img/home/main-picture-mobile.png"
+          alt="Epic warrior"
+          loading="lazy"
+          width="auto"
+          height="auto"
+        />
+      </picture>
+      <div class="about-descr">
+        <p>
+          Enter an era of war, betrayal, and resilience in Dynasty: Fallen &
+          Rise, a tactical strategy RPG where your choices shape the fate of an
+          empire.
+        </p>
+        <p>
+          Play as an exiled heir fighting to reclaim the throne of your fallen
+          kingdom. Build alliances, master battlefield tactics, and command
+          legendary heroes in your quest to unite the land once more.
+        </p>
+        <p>
+          Craft your legacy in a world where every sword stroke echoes through
+          history.
+        </p>
+        <ul style="list-style-type: disc; padding-left: 17px">
+          <li>Rebuild your dynasty from ruin.</li>
+          <li>Command armies in real-time battles.</li>
+          <li>Outsmart rivals in political intrigue and strategy.</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </section>
+<!-- 
+•  Rebuild your dynasty from ruin.•  Command armies in real-time battles.•  Outsmart rivals in political intrigue and strategy. -->
