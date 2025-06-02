@@ -23,6 +23,7 @@
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 12px;
+  letter-spacing: 0.12em;
 }
 .cta-download {
   display: flex;
