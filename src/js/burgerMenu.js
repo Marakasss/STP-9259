@@ -1,6 +1,7 @@
 const openBtnEl = document.querySelector('[data-action="open"]');
 const closeBtnEl = document.querySelector('[data-action="close"]');
 const burgerMenuEl = document.querySelector('[data-visible]');
+const menuLinks = burgerMenuEl.querySelectorAll('a[href^="#"]');
 
 // OPEN MENU
 openBtnEl.addEventListener('click', () => {
@@ -33,4 +34,11 @@ burgerMenuEl.addEventListener('touchend', e => {
   if (deltaX > 50) {
     burgerMenuEl.dataset.visible = 'close';
   }
+});
+
+//CLOSE ON LINK
+menuLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    burgerMenuEl.dataset.visible = 'close';
+  });
 });
