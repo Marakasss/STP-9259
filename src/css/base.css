@@ -34,6 +34,7 @@ main {
 
 .section {
   margin-bottom: 40px;
+  scroll-margin-top: 54px;
 }
 
 .container {
@@ -51,6 +52,7 @@ main {
 
   .section {
     margin-bottom: 80px;
+    scroll-margin-top: 84px;
   }
 }
 
