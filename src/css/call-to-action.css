@@ -58,9 +58,7 @@
   .cta-wrapper {
     flex-direction: row;
   }
-  .cta-img {
-    margin-left: 80px;
-  }
+  
   .cta-item-wrapper {
     align-items: start;
     margin-left: 50px;
