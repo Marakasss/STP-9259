@@ -1,4 +1,4 @@
-<div class="cookies-overlay" data-visible="open">
+<div class="cookies-overlay" data-is-cookies="close">
   <div class="cookies-container">
     <div class="cookies-bg"></div>
     <div class="cookies-content">
@@ -7,8 +7,13 @@
         We use cookies to improve your experience on our website. By browsing
         this website, you agree to our use of cookies.
       </p>
-      <button class="cookies-btn" type="button">Accept Cookies</button
-      ><button class="cookies-btn" type="button">Decline Cookies</button>
+      <div class="cookies-btn-wrp">
+        <button class="cookies-btn" type="button" data-cookieBtn="accept">
+          Accept Cookies</button
+        ><button class="cookies-btn" type="button" data-cookieBtn="decline">
+          Decline Cookies
+        </button>
+      </div>
     </div>
   </div>
 </div>
