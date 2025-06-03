@@ -1,5 +1,51 @@
-<section class="section">
+<section class="section" id="atmosphere">
   <div class="container">
+    <h2 class="atm-title">Game atmosphere</h2>
+    <div class="atm-wrapper">
+      <picture class="atm-img">
+        <!--desktop-->
+        <source
+          srcset="
+            /img/atmosphere/atm-picture-desktop.png   1x,
+            /img/atmosphere/atm-picture-desktop@2.png 2x
+          "
+          media="(min-width: 1200px)"
+        />
+
+        <!--mobile -->
+        <source
+          srcset="
+            /img/atmosphere/atm-picture-mobile.png   1x,
+            /img/atmosphere/atm-picture-mobile@2.png 2x
+          "
+          media="(max-width: 1199px)"
+        />
+
+        <!--Fallback-->
+        <img
+          src="/img/atmosphere/atm-picture-mobile.png"
+          alt="Dragon"
+          loading="lazy"
+          width="auto"
+          height="auto"
+        />
+      </picture>
+      <div class="atm-item-wrapper">
+        <p class="atm-item">
+          Experience a world steeped in legend, where shifting alliances and
+          ancient secrets determine the future of your people.
+        </p>
+        <p class="atm-item">
+          From the smoke-covered battlefields of the West to the mystic temples
+          of the East, Dynasty: Fallen & Rise immerses you in a cinematic
+          journey filled with honor, sacrifice, and triumph.
+        </p>
+        <p class="atm-item">
+          With a powerful orchestral score and vivid animations, every chapter
+          of your legacy comes alive.
+        </p>
+      </div>
+    </div>
     <!--TODO -->
   </div>
 </section>

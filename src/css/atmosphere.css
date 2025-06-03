@@ -1,0 +1,48 @@
+.atm-title {
+  font-family: var(--second-family);
+  color: #fffffd;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 34px;
+}
+.atm-item {
+  width: 232px;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: var(--font-family);
+  text-align: center;
+  line-height: 1.5;
+}
+.atm-wrapper {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px 0;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+.atm-img {
+  width: 251px;
+}
+@media only screen and (min-width: 1200px) {
+  .atm-title {
+    font-size: 32px;
+    margin-bottom: 34px;
+  }
+  .atm-wrapper {
+    width: 1040px;
+    flex-direction: row-reverse;
+    gap: 80px;
+  }
+  .atm-img {
+    width: 339px;
+  }
+  .atm-item {
+    width: 509px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
