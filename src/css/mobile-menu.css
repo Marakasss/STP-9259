@@ -53,12 +53,13 @@
 .mob-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 32px;
+  margin-top: 24px;
 }
 
 .mob-menu-link {
   font-family: var(--font-family);
-  font-weight: 400;
+  font-weight: 600;
   font-size: 12px;
   color: #fffffd;
 }
