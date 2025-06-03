@@ -27,6 +27,11 @@
   padding: 10px 5px 6px 0;
 }
 
+.nav-item a.active {
+  color: #e2b875;
+  font-weight: 700;
+}
+
 @media only screen and (min-width: 1200px) {
   .burger-btn {
     display: none;
@@ -53,7 +58,7 @@
     &:hover,
     &:focus,
     &:active {
-      color: #e7e7a6;
+      color: #e2b875;
     }
   }
 }
