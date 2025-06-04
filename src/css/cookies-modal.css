@@ -17,7 +17,6 @@
 
 .cookies-overlay[data-is-cookies='open'] {
   opacity: 1;
-  pointer-events: auto;
 }
 
 .cookies-overlay[data-is-cookies='close'] {
@@ -36,6 +35,7 @@
 
 .cookies-overlay[data-is-cookies='open'] .cookies-container {
   transform: translateY(0);
+  pointer-events: auto;
 }
 
 .cookies-overlay[data-is-cookies='close'] .cookies-container {
