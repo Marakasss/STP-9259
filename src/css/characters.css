@@ -13,6 +13,7 @@
   align-items: center;
   gap: 12px;
   padding: 4px 0;
+  margin: 0 auto;
 }
 .char-img {
   width: 197px;
