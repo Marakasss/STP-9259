@@ -20,8 +20,10 @@
   flex-direction: column;
   gap: 4px;
   justify-content: end;
+  height: 60px;
   /* align-items: center; */
   /* text-align: center; */
+  justify-content: start;
 }
 .footer-link {
   font-weight: 600;
@@ -45,7 +47,8 @@
   text-align: center;
 }
 .domen {
-  font: 500 10px var(--font-family);
+  font-weight: 500;
+  font-size: 10px;
   color: #fffffd;
 }
 /* -----------------------page-------------- */
@@ -155,6 +158,7 @@ ol.styled-items {
     gap: 4px;
     justify-content: end;
     margin-right: 94px;
+    align-items: center;
   }
   .footer-link {
     font-size: 14px;
