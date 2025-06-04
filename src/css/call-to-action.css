@@ -73,4 +73,11 @@
     font-size: 14px;
     letter-spacing: 0.12em;
   }
+
+  .cta-img img {
+    width: 472px;
+    height: 293px;
+    border-radius: 371px;
+    clip-path: ellipse(94% 88% at 50% 50%);
+  }
 }
