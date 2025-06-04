@@ -23,7 +23,8 @@
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 12px;
-  letter-spacing: 0.12em;
+
+  text-align: center;
 }
 .cta-download {
   display: flex;
@@ -62,7 +63,7 @@
   .cta-wrapper {
     flex-direction: row;
   }
-  
+
   .cta-item-wrapper {
     align-items: start;
     margin-left: 50px;
@@ -70,5 +71,6 @@
   }
   .cta-item {
     font-size: 14px;
+    letter-spacing: 0.12em;
   }
 }
