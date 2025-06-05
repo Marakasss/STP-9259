@@ -44,7 +44,7 @@
 .mob-menu-close-btn {
   position: absolute;
   top: 16px;
-  left: calc(56px + 103px - 20px);
+  left: calc(56px * 2 + 113px - 14px - 33px);
   width: fit-content;
   background: none;
   border: none;
