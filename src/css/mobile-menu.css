@@ -28,9 +28,9 @@
   position: absolute;
   top: 0%;
   bottom: 0%;
-  right: calc(50% - 140px);
+  right: 0;
   background: rgba(12, 15, 16, 1);
-  width: 225px;
+  width: calc((100vw - 320px) / 2 + 225px);
   border-radius: 10px;
   padding: 64px 56px;
   transform: translateX(100%);
@@ -44,7 +44,8 @@
 .mob-menu-close-btn {
   position: absolute;
   top: 16px;
-  right: 16px;
+  left: calc(56px + 103px - 20px);
+  width: fit-content;
   background: none;
   border: none;
   cursor: pointer;
