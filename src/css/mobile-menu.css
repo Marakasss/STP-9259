@@ -28,7 +28,7 @@
   position: absolute;
   top: 0%;
   bottom: 0%;
-
+  right: calc(50% - 140px);
   background: rgba(12, 15, 16, 1);
   width: 225px;
   border-radius: 10px;
